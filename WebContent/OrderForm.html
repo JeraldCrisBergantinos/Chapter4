@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Order Form</title>
+</head>
+<body>
+
+<h1>Order Form</h1>
+
+<form action="OrderSlip" method="post">
+<table border="1">
+	<tr>
+		<td rowspan="3">
+		
+		Appetizer
+		<p>
+		
+		Item
+		<select name="appetizer_item">
+			<option>Appetizer 1
+			<option>Appetizer 2
+			<option>Appetizer 3
+		</select>
+		<br>
+		
+		Count <input type="text" name="appetizer_item_count">
+		<p>
+		
+		Main Course
+		<p>
+		
+		Item
+		<select name="main_course_item">
+			<option>Main Course 1
+			<option>Main Course 2
+			<option>Main Course 3
+		</select>
+		<br>
+		
+		Count <input type="text" name="main_course_item_count">
+		<p>
+		
+		Drink
+		<p>
+		
+		Item
+		<select name="drink_item">
+			<option>Drink 1
+			<option>Drink 2
+			<option>Drink 3
+		</select>
+		<br>
+		
+		Count <input type="text" name="drink_item_count">
+		<p>
+		
+		<input type="checkbox" name="serve_with_dessert">Serve with Dessert
+		<p>
+		
+		</td>
+		
+		<td>
+		
+		Payment Option
+		<p>
+		
+		<input type="radio" name="payment" value="Credit Card">Credit Card
+		<br>
+		<input type="text" name="credit_card_number">
+		<br>
+		
+		<input type="radio" name="payment" value="Cash" checked>Cash
+		<p>
+		
+		</td>
+		
+	</tr>
+	
+	<tr>
+	
+		<td>
+		
+		Personal Information
+		<p>
+		
+		First Name <input type="text" name="first_name">
+		<br>
+		
+		Middle Name <input type="text" name="middle_name">
+		<br>
+		
+		Last Name <input type="text" name="last_name">
+		<br>
+		
+		</td>
+	
+	</tr>
+	
+	<tr>
+	
+		<td>
+		
+		<input type="submit" value="Submit Order">
+		
+		</td>
+	
+	</tr>
+	
+</table>
+
+</form>
+
+</body>
+</html>
